@@ -23,10 +23,7 @@ public class Baek_2178 {
     }
 
     public String BFS(int row, int col, String[][] grid){
-        int[] left = {0, -1};
-        int[] right = {0, 1};
-        int[] up = {1, 0};
-        int[] down = {-1, 0};
+
 
         int[] dr = {0, 0, 1, -1};
         int[] dc = {1, -1, 0, 0};

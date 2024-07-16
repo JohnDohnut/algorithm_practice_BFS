@@ -1,3 +1,4 @@
+
 import java.util.*;
 import java.io.*;
 
@@ -53,3 +54,4 @@ public class Baek_11724 {
 
     }
 }
+

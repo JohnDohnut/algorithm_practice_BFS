@@ -26,7 +26,7 @@ public class Baek_14502 {
             }
         }
 
-        ArrayList<Integer>[] combination = new ArrayList<>[];
+        //ArrayList<Integer>[] combination = new ArrayList<>[];
 
         for(int i=0; i<spaces.size(); i++){
             for(int j=i+1; j<spaces.size(); j++){
@@ -45,6 +45,6 @@ public class Baek_14502 {
     }
 
     public int[] coord(int row, int col){
-        return new int[] {row, col}
+        return new int[] {row, col};
     }
 }
